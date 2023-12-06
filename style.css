@@ -1,0 +1,103 @@
+
+   header {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 0px;
+  
+}
+
+body {
+    background-color: #F4F0E0; /* Change this color to your desired background color */
+}
+    header img {
+        width: 300px;
+        height: 200px;
+        float: left;
+        margin-right: -10px;
+        margin-top: -20px;
+    }
+
+    
+   #map {
+    padding: 10px;
+    border: 2px solid #1b1b1b;
+   }
+
+
+    .leaflet-control-layers label {
+        font-size: 14px; /* Font size */
+        margin-bottom: 4px; /* Adjust spacing between labels */
+        font-family: 'Ariel';
+    }
+
+    .leaflet-control-layers {
+        background-color: #fff; /* Background color */
+        border: 2px solid #ccc; /* Border color and thickness */
+        border-radius: 5px; /* Border radius */
+        padding: 10px; /* Padding around the control */
+        max-width: 400px; /* Maximum width of the control */
+        float: left;
+    }
+
+
+    /* Customize the Leaflet popup */
+.leaflet-popup {
+    background-color: #b9434300; /* Background color */
+    border: 2px solid #ccc; /* Border color and thickness */
+    border-radius: 5px; /* Border radius */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+
+/* Customize the Leaflet popup content */
+.leaflet-popup-content {
+    padding: 10px; /* Padding inside the popup */
+    max-width: 300px; /* Maximum width of the popup content */
+}
+
+/* Customize the Leaflet popup close button */
+.leaflet-popup-close-button {
+    color: #333; /* Close button color */
+}
+
+/* Customize the Leaflet popup close button hover state */
+.leaflet-popup-close-button:hover {
+    color: #555; /* Close button color on hover */
+}
+
+
+
+/* Customize the infoDiv */
+.leaflet-control.info {
+    background-color: #F4F0E0; /* Background color */
+    border: 3px solid #242323; /* Border color and thickness */
+    border-radius: 5px; /* Border radius */
+    padding: 10px; /* Padding inside the infoDiv */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow */
+    font-size: 14px; /* Font size */
+    color: #242323;
+    max-width: 350px; 
+    font-family: 'Ariel'
+}
+
+/* Customize the infoDiv content */
+.leaflet-control.info .info-content {
+    max-width: 100px; /* Maximum width of the content */
+    background-color: #41b3a3;
+    font-family: 'Ariel'
+
+}
+
+/* Customize the infoDiv close button */
+.leaflet-control.info .info-close-button {
+    cursor: pointer; /* Change cursor to pointer on hover */
+    color: #555; /* Close button color */
+    font-weight: bold; /* Bold close button text */
+}
+
+/* Customize the infoDiv close button hover state */
+.leaflet-control.info .info-close-button:hover {
+    color: #777; /* Close button color on hover */
+}
